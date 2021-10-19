@@ -1,0 +1,42 @@
+{
+  "name": "shxmxn",
+  "dark": true,
+  "author": "skxflxr",
+  "editorScheme": "/shxmxn.xml",
+
+  "ui": {
+    "*": {
+      "background": "#26001C",
+      "foreground": "#EAECEC",
+      "selectionBackground": "#EAECEC",
+      "selectionInactiveForeground": "#EAECEC",
+      "selectionForeground": "#EC22B1",
+      "selectionInactiveBackground": "#8A006B",
+      "selectionBackgroundInactive": "#EDA6D6"
+    },
+    "Label.foreground": "#EAECEC",
+    "Label.background": "#F6E9C9",
+    "Panel.background": "#8D258F",
+    "Window.border": "4,4,4,4,E6E6E6",
+
+    "EditorTabs": {
+      "underlineColor": "#ECDF6A",
+      "underlineHeight": 4,
+
+      "underlinedTabBackground": "#000000",
+      "inactiveColoredFileBackground": "#523057"
+    },
+    "DefaultTabs": {
+      "background": "#764778",
+      "inactiveUnderlineColor": "#1AEBFF"
+    },
+    "ToolWindow" : {
+      "Header": {
+        "inactiveBackground": "#764778"
+      },
+      "HeaderTab": {
+        "inactiveUnderlineColor": "#FFFFFF"
+      }
+    }
+  }
+}
