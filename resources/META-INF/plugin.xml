@@ -1,34 +1,19 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.shxmxn.theme</id>
+  <name>shxmxn theme</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="hello@shxmxn.online" url="https://shxmxn.online">shxmxn</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      shxmxn theme for Intellij Idea IDE family<br>
     ]]></description>
 
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-  </change-notes>
-
-  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <version>0.0.1</version>
   <idea-version since-build="173.0"/>
-
-  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-       on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
     <themeProvider id="2f47f759-302a-4091-bac0-a398c3a35dbf" path="/shxmxn.theme.json"/>
   </extensions>
-
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
 
 </idea-plugin>

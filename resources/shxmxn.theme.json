@@ -16,7 +16,7 @@
     },
     "Label.foreground": "#EAECEC",
     "Label.background": "#F6E9C9",
-    "Panel.background": "#8D258F",
+    "Panel.background": "#7E1768",
     "Window.border": "4,4,4,4,E6E6E6",
 
     "EditorTabs": {
@@ -37,6 +37,6 @@
       "HeaderTab": {
         "inactiveUnderlineColor": "#FFFFFF"
       }
-    }
+    },
   }
 }
