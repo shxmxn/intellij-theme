@@ -1,23 +1,30 @@
 {
   "name": "shxmxn",
   "dark": true,
-  "author": "skxflxr",
+  "author": "cxthxr.sys",
   "editorScheme": "/shxmxn.xml",
 
   "ui": {
     "*": {
-      "background": "#26001C",
+      "background": "#1b0916",
       "foreground": "#EAECEC",
-      "selectionBackground": "#EAECEC",
+      "selectionBackground": "#EDA6D6",
       "selectionInactiveForeground": "#EAECEC",
       "selectionForeground": "#EC22B1",
       "selectionInactiveBackground": "#8A006B",
       "selectionBackgroundInactive": "#EDA6D6"
     },
-    "Label.foreground": "#EAECEC",
-    "Label.background": "#F6E9C9",
     "Panel.background": "#7E1768",
     "Window.border": "4,4,4,4,E6E6E6",
+    "Link.activeForeground": "#61DDFF",
+    "CompletionPopup.selectionInactiveBackground": "#764778",
+Li
+    "Label": {
+      "infoForeground": "EC22B1",
+      "foreground": "#EAECEC",
+      "background": "#F6E9C9",
+      "selectedForeground":"#000000"
+    },
 
     "EditorTabs": {
       "underlineColor": "#ECDF6A",
@@ -28,7 +35,7 @@
     },
     "DefaultTabs": {
       "background": "#764778",
-      "inactiveUnderlineColor": "#1AEBFF"
+      "inactiveUnderlineColor": "#61DDFF"
     },
     "ToolWindow" : {
       "Header": {
@@ -37,6 +44,27 @@
       "HeaderTab": {
         "inactiveUnderlineColor": "#FFFFFF"
       }
+    },
+    "Button": {
+      "background": "#7E1768",
+      "focusedBorderColor" :"#61DDFF",
+      "startBackground": "#000000",
+      "endBackground": "#000000",
+      "startBorderColor": "#FFFFFF",
+      "endBorderColor": "#FFFFFF",
+
+      "default": {
+        "foreground": "#FF00000",
+        "startBackground": "#61DDFF",
+        "endBackground": "#61DDFF",
+        "startBorderColor": "#61DDFF",
+        "endBorderColor": "#61DDFF",
+        "focusedBorderColor": "#000000"
+      }
     }
+  },
+  "ActionButton": {
+    "hoverBackground": "#FFFFFF",
+    "pressedBackground": "#FFFFFF"
   }
 }

@@ -1,13 +1,16 @@
 <scheme name="shxmxn" version="142" parent_scheme="Darcula">
   <colors>
     <option name="CARET_ROW_COLOR" value="4e3f4a" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="592157" />
+    <option name="DOCUMENTATION_COLOR" value="7e1768" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="8a758a" />
     <option name="GUTTER_BACKGROUND" value="26001c" />
+    <option name="IMAGES_BACKGROUND" value="26001c" />
+    <option name="LOOKUP_COLOR" value="7e1768" />
     <option name="SELECTED_TEARLINE_COLOR" value="764778" />
     <option name="TABS" value="ec22b1" />
     <option name="TEARLINE_COLOR" value="764778" />
     <option name="WHITESPACES" value="ec22b1" />
-    <option name="IMAGES_BACKGROUND" value="26001c" />
   </colors>
   <attributes>
     <option name="BREADCRUMBS_DEFAULT">
@@ -18,6 +21,11 @@
     <option name="BREADCRUMBS_INACTIVE">
       <value>
         <option name="FOREGROUND" value="26001c" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
@@ -62,6 +70,11 @@
     <option name="TAB_SELECTED_INACTIVE">
       <value />
     </option>
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+      <value>
+        <option name="BACKGROUND" value="592157" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="eaecec" />
@@ -92,6 +105,11 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff0015" />
+      </value>
+    </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
   </attributes>
