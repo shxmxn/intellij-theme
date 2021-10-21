@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.shxmxn.theme</id>
   <name>Shxmxn Theme</name>
-  <version>1.0</version>
+  <version>0.0.2</version>
   <vendor email="hello@shxmxn.online" url="https://shxmxn.online">shxmxn</vendor>
 
   <description><![CDATA[

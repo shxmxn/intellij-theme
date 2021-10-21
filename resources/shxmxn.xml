@@ -23,6 +23,11 @@
         <option name="FOREGROUND" value="26001c" />
       </value>
     </option>
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -107,9 +112,16 @@
         <option name="FOREGROUND" value="ff0015" />
       </value>
     </option>
-    <option name="CONSOLE_NORMAL_OUTPUT">
+    <option name="CONSOLE_BLACK_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
   </attributes>
