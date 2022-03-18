@@ -6,7 +6,7 @@
 
   "ui": {
     "*": {
-      "background": "#1b0916",
+      "background": "#1B0916",
       "foreground": "#EAECEC",
       "selectionBackground": "#EDA6D6",
       "selectionInactiveForeground": "#EAECEC",
@@ -14,17 +14,22 @@
       "selectionInactiveBackground": "#8A006B",
       "selectionBackgroundInactive": "#EDA6D6"
     },
+
     "Panel.background": "#7E1768",
-    "Window.border": "4,4,4,4,E6E6E6",
+    "Window.border": "4,4,4,4,#E6E6E6",
     "Link.activeForeground": "#61DDFF",
+    "BigSpinner.background": "#7E1768",
+    "CheckBox.background": "#7E1768",
+    "RadioButton.background": "#7E1768",
     "CompletionPopup.selectionInactiveBackground": "#764778",
+    "TextField.background": "#000000",
+
     "Label": {
-      "infoForeground": "EC22B1",
+      "infoForeground": "#EC22B1",
       "foreground": "#EAECEC",
       "background": "#F6E9C9",
       "selectedForeground":"#000000"
     },
-
     "EditorTabs": {
       "underlineColor": "#ECDF6A",
       "underlineHeight": 4,
@@ -53,7 +58,6 @@
       "endBorderColor": "#FFFFFF",
 
       "default": {
-        "foreground": "#FF00000",
         "startBackground": "#61DDFF",
         "endBackground": "#61DDFF",
         "startBorderColor": "#61DDFF",
